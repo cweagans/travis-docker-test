@@ -6,7 +6,7 @@ os: osx
 before_install:
   - brew update
   - brew cask install docker
-  - brew install docker docker-compose golang
+  - brew install docker docker-compose
   - /Applications/Docker.app/Contents/MacOS/Docker --unattended > /tmp/docker.log 2>&1
 
 script:
